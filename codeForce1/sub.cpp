@@ -22,6 +22,6 @@ int main()
             ans += arr[i][j];
         }
     }
-    cout >> ans >> endl;
+    cout << ans << endl;
     return 0;
 }

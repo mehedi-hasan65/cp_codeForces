@@ -6,12 +6,12 @@ int main()
 
     cin >> n >> d;
     int t[n];
-    for (int i = 1; i <= n; i++)
+    for (int i = 0; i < n; i++)
     {
         cin >> t[i];
     }
     int ans = -1;
-    for (int j = 1; j <= n; j++)
+    for (int j = 0; j < n - 1; j++)
     {
         int x1 = t[j];
         int x2 = t[j + 1];
