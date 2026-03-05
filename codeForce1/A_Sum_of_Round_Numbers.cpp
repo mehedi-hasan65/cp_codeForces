@@ -28,10 +28,11 @@ int main()
             if (lastDigit != 0)
             {
                 int round = lastDigit * p;
-                cout << round << " " << endl;
+                cout << round << " ";
             }
             p *= 10;
         }
+        cout << endl;
     }
     return 0;
 }
