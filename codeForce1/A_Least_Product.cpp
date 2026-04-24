@@ -15,7 +15,7 @@ int main()
         for (int i = 0; i < n; i++)
         {
             cin >> arr[i];
-            if (arr[i] < 0)
+            if (arr[i] == 0)
             {
                 isNegative = true;
             }
@@ -24,7 +24,7 @@ int main()
             cout << "0" << endl;
 
         else
-            cout << "1" << endl;
+            cout << "1" << " " << "0" << endl;
     }
     return 0;
 }
