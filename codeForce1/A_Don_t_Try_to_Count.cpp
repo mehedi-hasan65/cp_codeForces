@@ -19,7 +19,7 @@ int main()
         {
             bool isSubstring = false;
 
-            // check if s is substring of x
+            
             for (int i = 0; i + m <= n; i++)
             {
                 bool matched = true;
@@ -28,7 +28,7 @@ int main()
                     if (x[i + j] != s[j])
                     {
                         matched = false;
-                        break; // optimization
+                        break; 
                     }
                 }
                 if (matched)
@@ -47,7 +47,7 @@ int main()
             if (op == 5)
                 break;
 
-            // safely double the string
+            
             x = x + x;
             n = x.length();
         }

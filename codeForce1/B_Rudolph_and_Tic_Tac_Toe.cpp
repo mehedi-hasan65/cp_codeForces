@@ -7,7 +7,14 @@ int main()
     cin >> t;
     while (t--)
     {
-        string s;
-        cin >> s;
+        string s[3][3];
+
+        for (int i = 0; i < 3; i++)
+        {
+            for (int j = 0; j < 3; j++)
+            {
+                cin >> s[i][j];
+            }
+        }
     }
 }
